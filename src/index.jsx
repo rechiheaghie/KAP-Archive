@@ -30,7 +30,7 @@ async function renderPage(page, request) {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="description"
               content={ page.description || `KAP Archive is an archival site that focuses on preserving program's from Khan Academy®'s KACP section;
-              This project is in no way offiliated with or endoresed by Khan Academy®.
+              This project is in no way affiliated with or endorsed by Khan Academy®.
               The project exists to preserve code from hidden/deleted programs and banned users on KACP.` } />
             <meta name="theme-color" content="#11111A"/>
             <title>{page.title ?? 'KAP Archive'}</title>
