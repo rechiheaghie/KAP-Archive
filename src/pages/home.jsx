@@ -21,7 +21,7 @@ function Page() {
             <h2>About</h2>
             <p>
                 KAP Archive is an archival site that exists to preserve code from hidden/deleted programs and banned users on KACP.
-                This project is in no way offiliated with or endoresed by Khan Academy®. 
+                This project is in no way affiliated with or endorsed by Khan Academy®. 
                 For more information check out the <a href="https://github.com/Shipment22/KAP-Archive">Github Repo</a>.
             </p>
             <p>
