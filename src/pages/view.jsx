@@ -4,7 +4,7 @@ export default function(props) {
     let profileAccessMessage = "";
     switch(props.program.author.profileAccess) {
         case null:
-            profileAccessMessage = "Unknown: This is a side effect of old child account programs.";
+            profileAccessMessage = "Unknown: This is a side effect of child-accounted programs.";
             break;
         case "PUBLIC":
             profileAccessMessage = "PUBLIC: Visible to everyone.";
@@ -128,15 +128,15 @@ export default function(props) {
                 </tr>
                 <tr>
                     <th>Author Nick</th>
-                    <td title={props.program.author.id||"In the early days of KACP some users had anonymous profiles. This is an artifact from that era."}>{props.program.author.nick || "anonymous user"}</td>
+                    <td title={props.program.author.id||"In the early days of KACP it was possible to save programs without an account. This is an artifact from that era."}>{props.program.author.nick || "Anonymous User"}</td>
                 </tr>
                 <tr>
                     <th>Author Name</th>
-                    <td title={props.program.author.id||"In the early days of KACP some users had anonymous profiles. This is an artifact from that era."}>{props.program.author.name || "anonymous user"}</td>
+                    <td title={props.program.author.id||"In the early days of KACP it was possible to save programs without an account. This is an artifact from that era."}>{props.program.author.name || "Anonymous User"}</td>
                 </tr>
                 <tr>
                     <th>Author ID</th>
-                    <td title={props.program.author.id?props.program.author.name:"In the early days of KACP some users had anonymous profiles. This is an artifact from that era."}>{props.program.author.id || "anonymous user"}</td>
+                    <td title={props.program.author.id?props.program.author.name:"In the early days of KACP it was possible to save programs without an account. This is an artifact from that era."}>{props.program.author.id || "Anonymous User"}</td>
                 </tr>
                 <tr>
                     <th>Author Profile Access</th>
